@@ -1,0 +1,122 @@
+/* Subject Title Section - Dark Blue Theme */
+.subject-title {
+  background: linear-gradient(to right, #0d47a1, #1565c0); /* Deep blue gradient */
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* Subject Topics Section */
+.subject-topics .topic-card {
+  background-color: #1e3a5f; /* Soft blue background */
+  border: 1px solid #2b4f77; /* Light blue border */
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  color: #e0e0e0; /* White text for contrast */
+}
+.subject-topics .topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.3); /* Blue hover shadow */
+  border: 1px solid #1565c0; /* Deep blue border on hover */
+}
+
+/* Paper Sections */
+.paper-card .card {
+  background-color: #1e3a5f; /* Soft blue background */
+  border: 1px solid #2b4f77; /* Light blue border */
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  padding: 20px;
+  color: #e0e0e0;
+}
+.paper-card .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.4); /* Blue hover shadow */
+  border: 1px solid #1565c0; /* Deep blue border on hover */
+}
+.paper-card .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #64b5f6; /* Light blue for emphasis */
+}
+.paper-card .card-text {
+  font-size: 15px;
+  color: #b0bec5;
+}
+
+/* Lecture Videos Section */
+.lecture-videos .video-card {
+  background-color: #1e3a5f; /* Soft blue background */
+  border: 1px solid #2b4f77;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  color: #e0e0e0;
+}
+.lecture-videos .video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.3); /* Blue hover shadow */
+  border: 1px solid #1565c0;
+}
+.lecture-videos iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  border: 2px solid #2b4f77;
+}
+.lecture-videos h5 {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #64b5f6; /* Light blue for video title */
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #0d47a1, #1565c0); /* Blue gradient footer */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topic-card,
+  .video-card {
+    padding: 10px;
+  }
+  .subject-title {
+    padding: 30px 0;
+  }
+  .lecture-videos iframe {
+    height: 180px;
+  }
+}
+
+/* YouTube Playlist Button */
+.playlist-btn {
+  display: inline-block;
+  background-color: #0d47a1; /* Deep blue button */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 12px;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(21, 101, 192, 0.3); /* Soft blue shadow */
+}
+
+/* Hover effect for Playlist Button */
+.playlist-btn:hover {
+  background-color: #1976d2; /* Light blue on hover */
+  box-shadow: 0 0 12px rgba(21, 101, 192, 0.7); /* Glowing blue effect */
+  transform: translateY(-3px); /* Slight lift on hover */
+}

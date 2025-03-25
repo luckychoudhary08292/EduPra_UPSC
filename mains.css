@@ -1,0 +1,133 @@
+/* Mains Page CSS */
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #001f3f, #003366), url("../images/mains-banner.jpg") no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: overlay; /* Blend the gradient with the image */
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.7);
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Subject Cards */
+.subjects {
+  padding: 50px 0;
+  background: linear-gradient(to right, #00274d, #001f3f); /* Dark blue gradient */
+}
+.subject-card {
+  background: linear-gradient(to bottom, #003366, #001f3f); /* Deep blue gradient */
+  border: 1px solid #004080;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.subject-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 51, 102, 0.5);
+}
+.subject-card h4 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.subject-card p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Syllabus Section */
+.syllabus {
+  padding: 50px 0;
+  background: linear-gradient(to right, #001f3f, #003366);
+}
+.syllabus h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.syllabus p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Mains Video Section */
+.videos {
+  padding: 50px 0;
+  background: linear-gradient(to right, #00274d, #001f3f); /* Dark blue gradient */
+}
+.videos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Video Wrapper */
+.video-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.video-item {
+  width: 300px;
+  text-align: center;
+  background: linear-gradient(to bottom, #003366, #001f3f);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 51, 102, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.video-item iframe {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  border: 2px solid #004080;
+}
+.video-item p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.video-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 51, 102, 0.5);
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(to right, #001f3f, #003366);
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .subjects,
+  .syllabus,
+  .videos {
+    padding: 30px 10px;
+  }
+  .video-item {
+    width: 100%;
+  }
+}

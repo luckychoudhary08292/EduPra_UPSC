@@ -1,0 +1,60 @@
+/* PDF Header Section - Dark Blue Theme with Sky Blue Background */
+.pdf-header {
+  background: linear-gradient(to right, #87CEEB, #00BFFF); /* Sky Blue Gradient */
+  padding: 60px 0;
+  border-radius: 8px;
+}
+
+/* Class Heading - Dark Blue Theme */
+.class-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ef04a1;
+  text-shadow: 1px 1px 2px #004080;
+}
+
+/* PDF Card - Dark Blue Theme */
+.pdf-card {
+  background-color: #001f3f;
+  border: 1px solid #87CEEB; /* Sky Blue Border */
+  padding: 20px;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.pdf-card img {
+  width: 80px;
+  height: auto;
+}
+
+/* PDF Card Hover Effect */
+.pdf-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 191, 255, 0.5); /* Sky Blue Shadow */
+}
+
+/* PDF Title */
+.pdf-card h5 {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #f6ecec;
+}
+
+/* PDF Section Heading */
+#pdf-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #0a25f0;
+  font-weight: bold;
+}
+
+/* Footer - Dark Blue Theme with Sky Blue Border */
+footer {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  border-top: 2px solid #87CEEB; /* Sky Blue Top Border */
+}

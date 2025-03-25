@@ -1,0 +1,114 @@
+/* Full Webpage Background - Dark Blue Theme */
+body {
+  background: linear-gradient(to right, #0f1c3a, #1a2b4c); /* Dark blue gradient */
+  color: #fff; /* White text for contrast */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading Styles - White Text */
+h1, h2, h3, h4, h5, h6 {
+  color: #fff; /* White heading text */
+}
+
+/* Header Section - Deep Blue Gradient */
+.books-header {
+  background: linear-gradient(to right, #0d47a1, #1565c0); /* Deep blue gradient */
+  padding: 60px 0;
+  color: #fff; /* White text */
+  text-align: center;
+}
+
+/* Paper Sections */
+.paper-card .card {
+  background-color: #1e3a5f; /* Soft blue background */
+  border: 1px solid #2b4f77; /* Light blue border */
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  padding: 20px;
+}
+.paper-card .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.4); /* Blue hover shadow */
+  border: 1px solid #1565c0; /* Deep blue border on hover */
+}
+.paper-card .card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff; /* White text */
+}
+.paper-card .card-text {
+  font-size: 15px;
+  color: #fff; /* White text */
+}
+
+/* Book List Section */
+#book-list {
+  padding: 50px 0;
+  background: linear-gradient(to bottom, #0f1c3a, #1a2b4c); /* Dark blue gradient */
+}
+.book-card {
+  background-color: #1e3a5f;
+  border: 1px solid #2b4f77;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+  color: #fff; /* White text */
+}
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.4); /* Glowing blue hover shadow */
+  border: 1px solid #1565c0;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #0d47a1; /* Deep blue for buttons */
+  border-color: #0d47a1;
+  color: #fff; /* White text */
+  border-radius: 25px; /* Rounded button */
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #1976d2; /* Lighter blue on hover */
+  border-color: #1976d2;
+  box-shadow: 0 0 12px rgba(21, 101, 192, 0.7); /* Glowing blue hover effect */
+}
+
+/* Book Section Heading */
+.book-section h3 {
+  font-size: 2rem;
+  color: #fff; /* White header */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(21, 101, 192, 0.3);
+}
+
+/* Footer Section */
+footer {
+  background: linear-gradient(to right, #0d47a1, #1565c0); /* Blue gradient for footer */
+  color: #fff; /* White text */
+  padding: 10px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff; /* White text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .book-card {
+    padding: 10px;
+  }
+  iframe {
+    height: 250px;
+  }
+  .books-header {
+    padding: 40px 0;
+  }
+}

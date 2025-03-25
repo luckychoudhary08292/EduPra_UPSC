@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b1e35; /* Dark blue background */
+  color: #fff; /* Default text color white */
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #0a1728; /* Dark navy */
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff; /* White text */
+}
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+  color: #b0c4de; /* Light blue */
+}
+.navbar-nav .nav-link:hover {
+  color: #87ceeb !important; /* Sky blue on hover */
+}
+
+/* Hero Section */
+#hero {
+  padding: 50px 0;
+  background-color: #0a1728; /* Dark navy background */
+  color: #fff; /* White text */
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #b0c4de; /* Light blue text */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1e90ff; /* Dodger blue */
+  border-color: #1e90ff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #4682b4; /* Steel blue on hover */
+  border-color: #4682b4;
+}
+
+/* Info Section */
+.info {
+  background-color: #0b1e35;
+  padding: 50px 0;
+  color: #b0c4de; /* Light blue text */
+}
+.info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff; /* White heading */
+}
+.info h4 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  color: #1e90ff; /* Dodger blue */
+}
+.info p {
+  font-size: 1.1rem;
+  color: #dcdcdc; /* Light gray text */
+}
+
+/* Chart Section */
+.upsc-chart-section {
+  background-color: #0e233d; /* Slightly lighter dark blue */
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.2);
+  margin: 20px auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.chart-container h2 {
+  font-size: 28px;
+  color: #fff; /* White heading */
+  margin-bottom: 15px;
+}
+.chart-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid #1e90ff;
+  border-radius: 8px;
+}
+.chart-caption {
+  font-size: 16px;
+  color: #dcdcdc; /* Light gray text */
+  margin-top: 10px;
+}
+
+/* Roadmap Section */
+.roadmap {
+  padding: 50px 0;
+  background-color: #0e233d;
+  color: #dcdcdc; /* Light text */
+}
+.roadmap h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.roadmap h4 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #1e90ff;
+}
+.roadmap p {
+  color: #dcdcdc; /* Light gray */
+}
+
+/* Videos Section */
+.videos {
+  background-color: #0e233d;
+  padding: 50px 0;
+  color: #dcdcdc;
+}
+.videos h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.videos iframe {
+  border-radius: 10px;
+}
+
+/* Testimonial Section */
+.testimonials {
+  padding: 50px 0;
+  background-color: #0e233d;
+  color: #dcdcdc;
+}
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.testimonial-card {
+  background-color: #1a324d; /* Darker blue */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(30, 144, 255, 0.1);
+}
+.testimonial-card p {
+  font-style: italic;
+  color: #dcdcdc;
+}
+.testimonial-card h5 {
+  margin-top: 10px;
+  color: #1e90ff;
+}
+
+/* Quick Links Section */
+.resources {
+  padding: 50px 0;
+  background-color: #0e233d;
+}
+.resources h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.resources .btn {
+  margin: 10px 5px;
+  padding: 12px 20px;
+  background-color: #1e90ff;
+  border-color: #1e90ff;
+  color: #fff;
+}
+.resources .btn:hover {
+  background-color: #4682b4;
+}
+
+/* Footer */
+footer {
+  background-color: #0a1728;
+  color: #dcdcdc;
+  padding: 15px 0;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .info h2,
+  .roadmap h2,
+  .videos h2,
+  .resources h2 {
+    font-size: 2rem;
+  }
+  .testimonial-card {
+    margin-bottom: 20px;
+  }
+  .chart-container h2 {
+    font-size: 22px;
+  }
+  .chart-caption {
+    font-size: 14px;
+  }
+}

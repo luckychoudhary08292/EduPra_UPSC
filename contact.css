@@ -1,0 +1,42 @@
+/* Dark Blue Theme - Contact Section */
+.contact-section {
+  background: linear-gradient(to right, #0d47a1, #1976d2); /* Dark blue gradient */
+  color: #fff; /* White text */
+  padding: 60px 0;
+  border-radius: 8px;
+}
+
+.contact-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff; /* White text */
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #fff; /* White text */
+}
+
+/* Navbar Custom Blue */
+.navbar {
+  background-color: #0d47a1 !important; /* Deep blue for navbar */
+}
+
+/* Navbar Links */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important; /* White text */
+  transition: 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #bbdefb !important; /* Lighter blue on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #1a237e; /* Dark blue for footer */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
